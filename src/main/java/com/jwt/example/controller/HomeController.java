@@ -31,6 +31,7 @@ public class HomeController {
 		return userService.getUsers();
 	}
 	
+//	http://localhost:8080/home/currentUser
 	@GetMapping("currentUser")
 	public String getLogedInUser(Principal principal)
 	{
